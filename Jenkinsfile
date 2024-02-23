@@ -17,10 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                sudo source /Users/Aidan/Desktop/CMU/17645-MLP/MLIP_Lab6/env/bin/activate
+                source /Users/Aidan/Desktop/CMU/17645-MLP/MLIP_Lab6/env/bin/activate
 
                 # TODO Complete the command to run pytest
-                sudo pytest /Users/Aidan/Desktop/CMU/17645-MLP/MLIP_Lab6 
+                pytest /Users/Aidan/Desktop/CMU/17645-MLP/MLIP_Lab6 
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
 
                 echo 'pytest ran'
